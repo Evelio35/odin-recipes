@@ -1,11 +1,39 @@
 h1{
     font-family: 'Bebas Neue', serif;
     font-size: 80px;
+    background-color:lightgrey;
+}
+
+h2{
+    font-family: 'Bebas Neue', serif;
+    background-color: antiquewhite;
+
+}
+h3{
+    font-family: 'Bebas Neue', serif;
+    background-color: azure;
 }
 
 body{
     background-color: whitesmoke;
     text-align: center;
+    font-family: "Times-New-Roman", sans-serif;
+}
+ul{
+    font-style: italic;
+}
+
+ol{
+    font-style: italic;
+}
+
+.nutrition sub{
+    font-weight:normal;
+}
+
+#nutrition-facts{
+    display: flex;
+    justify-content:space-around;
 }
 
 #img-1{
