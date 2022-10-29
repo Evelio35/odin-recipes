@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Cake Pops</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
     </head>
 
     <body>
-    <center>
         <h1><u>Cake Pops</u></h1>
         
         <img src="https://www.allrecipes.com/thmb/s_dqW95WyPejHSvig1qKbJby1oM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5234646-easy-cake-pops-Buckwheat-Queen-4x3-1-cc8b5f436dd7485bb8b7e8dd7e854c24.jpg" width="500" alt="Delicious Cake Pops" />
@@ -56,8 +57,11 @@
         <h2>Editor's Notes:</h2>
         <p>The cooking instructions for the cake are based specifically for Betty Crocker(R) cake mix. Follow instructions on box if using a different brand.</p>
 
-        <h2>Nutrition Facts<sub>(per serving)</sub></h2>
-        <ul>
+        <h2 class="nutrition">
+            Nutrition Facts<sub>(per serving)</sub>
+        </h2>
+
+        <ul id="nutrition-facts">
             <li>Calories: <b>114</b></li>
             <li>Fat: <b>8g</b></li>
             <li>Carbs: <b>11g</b></li>
@@ -65,30 +69,14 @@
         </ul>
 
         <nav class="navigation">
-            <ul>
-                <li>
-                    <a href="cake-pops.html">Top of Page</a>
-                </li>
-
-                <li>
-                    <a href="../index.html">Homepage</a>
-                </li>
-            </ul>
+            <button><a href="cake-pops.html">Top of Page</a></button>
+            <button><a href="../index.html">Homepage</a></button>
         </nav>
 
         <nav class="navigation">
             <h4>You'll Also Love: </h4>
-            
-            <ul>
-                <li>
-                    <a href="lasagna.html">Lasagna</a>
-                </li>
-                <li>
-                    <a href="brownie-pie.html">Brownie Pie</a>
-                </li>
-            </ul>
+            <button><a href="lasagna.html">Lasagna</a></button>
+            <button><a href="brownie-pie.html">Brownie Pie</a></button>
         </nav>
-
-    </center>
     </body>
 </html>
